@@ -1,9 +1,9 @@
 # quantum_resistant_KEM
-Simple python script for quantum resistant key passage.
+Python scripts for quantum resistant key passage and file transfer.
 
-This is a class project for CS_GY 6903 at NYU Tandon School of Engineering. 
+This is a class project for CS_GY 6903 at NYU Tandon School of Engineering. **IT SHOULD NOT BE USED TO TRANSFER SENSITIVE INFORMATION AT THIS TIME**
 
-The script is based on the Open Quantum Safe library and its python wrapper: https://openquantumsafe.org/.  The LibOQS library is available on github at https://github.com/open-quantum-safe/liboqs.
+The scripts are based on the Open Quantum Safe library and its python wrapper: https://openquantumsafe.org/.  The LibOQS library is available on github at https://github.com/open-quantum-safe/liboqs.
 
 Installation:
 1. Install OQS by following the directions on https://github.com/open-quantum-safe/liboqs.
