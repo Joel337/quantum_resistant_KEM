@@ -17,12 +17,15 @@ Use:
 -a:       set algorithms
 -o:       set output file name
 -s:       set server status
+-f:       specify file to transfer (file share only)
 
 Use the argument followed by the value.  For example: 
 python3 key_share.py -s -p 1337 -a Kyber1024 
 will start a server on port 1337 that uses the Kyber1024 algorithm.
 
 To generate shared keys on two machines, run two copies of this script, one on each machine.  Set one as the server and connect with the other by directing it to the host/port the server is listening on.  The shared key will generated on each machine and written out to a file (file name can be specified with -o).
+
+To transfer a file use file_share.  Set one to server with -s.  You can also specify the output filename with -o. On the other machine run the script and specify the file you wish to transfer with -f. 
 
 Algorithms: 
 This script uses the OQS Library, so algorithms and algorithm names should match OQS.  This has been tested with a variety of Kyber and NTRU variants.
