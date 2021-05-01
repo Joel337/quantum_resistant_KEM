@@ -26,4 +26,4 @@ To generate shared keys on two machines, run two copies of this script, one on e
 
 Algorithms: 
 This script uses the OQS Library, so algorithms and algorithm names should match OQS.  This has been tested with a variety of Kyber and NTRU variants.
-Tested variants include: Kyber512, Kyber 768, Kyber1024, NTRU-HPS-2048-509, and NTRU-HPS=2048-677.
+Tested variants include: Kyber512, Kyber 768, Kyber1024, NTRU-HPS-2048-509, and NTRU-HPS-2048-677.
