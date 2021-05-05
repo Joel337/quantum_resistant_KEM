@@ -8,7 +8,7 @@ The scripts are based on the Open Quantum Safe library and its python wrapper: h
 Installation:
 1. Install OQS by following the directions on https://github.com/open-quantum-safe/liboqs.
 2. Install the OQS python bindings by following the directions on https://github.com/open-quantum-safe/liboqs-python.
-3. Download the script.  
+3. Download the scripts.  
 
 Use:
 -help:    show options/examples
@@ -30,3 +30,7 @@ To transfer a file use file_share.  Set one to server with -s.  You can also spe
 Algorithms: 
 This script uses the OQS Library, so algorithms and algorithm names should match OQS.  This has been tested with a variety of Kyber and NTRU variants.
 Tested variants include: Kyber512, Kyber 768, Kyber1024, NTRU-HPS-2048-509, and NTRU-HPS-2048-677.
+
+Additional files:
+Additionally, this repository contains the export of a dockerfile using openSSH with quantum resistant KEMS and some simple benchmarks of the performance python scripts above. 
+Performance was measured by testing six algorithms three times each and logging the time for the client and server.  Those were averaged to return single values, though the full data is available in the attached performance spreadsheet.
